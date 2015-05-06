@@ -21,7 +21,7 @@ gpgcheck=0
 name=CentOS-7.1.1503 - Updates - 163.com
 baseurl=http://mirrors.163.com/centos/7.1.1503/updates/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7.1.1503&arch=$basearch&repo=updates
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
 #additional packages that may be useful
@@ -29,7 +29,7 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-7.1.1503 - Extras - 163.com
 baseurl=http://mirrors.163.com/centos/7.1.1503/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7.1.1503&arch=$basearch&repo=extras
-gpgcheck=1
+gpgcheck=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
 #additional packages that extend functionality of existing packages
@@ -37,7 +37,7 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-7.1.1503 - Plus - 163.com
 baseurl=http://mirrors.163.com/centos/7.1.1503/centosplus/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7.1.1503&arch=$basearch&repo=centosplus
-gpgcheck=1
+gpgcheck=0
 enabled=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 
@@ -46,6 +46,6 @@ gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
 name=CentOS-7.1.1503 - Contrib - 163.com
 baseurl=http://mirrors.163.com/centos/7.1.1503/contrib/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=7.1.1503&arch=$basearch&repo=contrib
-gpgcheck=1
+gpgcheck=0
 enabled=0
 gpgkey=http://mirror.centos.org/centos/RPM-GPG-KEY-CentOS-6
