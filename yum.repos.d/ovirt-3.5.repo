@@ -1,0 +1,9 @@
+[ovirt-3.5]
+name=Latest oVirt 3.5 Release
+#baseurl=http://resources.ovirt.org/pub/ovirt-3.5/rpm/el$releasever/
+#mirrorlist=http://resources.ovirt.org/pub/yum-repo/mirrorlist-ovirt-3.5-el$releasever
+baseurl=http://resources.ovirt.org/pub/ovirt-3.5/rpm/el7/
+enabled=1
+#skip_if_unavailable=1
+#gpgcheck=1
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-ovirt-3.5
