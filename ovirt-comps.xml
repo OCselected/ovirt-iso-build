@@ -1116,6 +1116,7 @@
     <packagereq type="mandatory">ovirt-engine-userportal</packagereq>
     <packagereq type="mandatory">ovirt-engine-webadmin-portal</packagereq>
     <packagereq type="mandatory">ovirt-engine-websocket-proxy</packagereq>
+    <packagereq type="mandatory">ovirt-hosted-engine-setup</packagereq>
     <packagereq type="mandatory">glusterfs</packagereq>
     <packagereq type="mandatory">glusterfs-api</packagereq>
     <packagereq type="mandatory">glusterfs-cli</packagereq>
@@ -1132,6 +1133,7 @@
       <description>Virtualiztion Node Hypervisor Stack</description>
       <packagelist>
           <packagereq type="mandatory">vdsm</packagereq>
+          <packagereq type="mandatory">ovirt-hosted-engine-setup</packagereq>
           <packagereq type="mandatory">mom</packagereq>
           <packagereq type="mandatory">vdsm-cli</packagereq>
           <packagereq type="mandatory">vdsm-python</packagereq>
